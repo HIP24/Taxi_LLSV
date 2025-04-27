@@ -401,3 +401,7 @@ body {
         margin-left: 10px; /* Add spacing between logo/header and toggler */
     }
 }
+
+a{
+    color: #c4d11a;
+}
