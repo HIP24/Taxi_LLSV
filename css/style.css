@@ -278,7 +278,7 @@ h6,
 .testimonial-carousel .owl-dot.active {
     width: 40px;
     height: 40px;
-    background: var(--primary);
+    background: #c4d11a;
 }
 
 .testimonial-carousel .owl-item img {
@@ -289,7 +289,7 @@ h6,
 .testimonial-carousel .owl-item .testimonial-item {
     height: 350px;
     transition: .5s;
-    background: var(--light);
+    background: #c4d11a;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -372,4 +372,8 @@ body {
 
 .bg-primary {
     background-color: #c4d11a !important;
+}
+
+.text-secondary {
+    color: #000000 !important;
 }
