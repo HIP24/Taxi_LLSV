@@ -377,3 +377,27 @@ body {
 .text-secondary {
     color: #000000 !important;
 }
+
+  /* Default styles for larger screens */
+  .navbar-brand h1 {
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 28px; /* Reduce font size for mobile */
+        white-space: normal; /* Allow text to wrap */
+        word-break: break-word; /* Break long words if necessary */
+    }
+
+    .navbar-brand img {
+        height: 60px; /* Reduce logo size for mobile */
+    }
+
+    /* Ensure the toggler is aligned next to the logo and header */
+    .navbar-toggler {
+        margin-left: 10px; /* Add spacing between logo/header and toggler */
+    }
+}
