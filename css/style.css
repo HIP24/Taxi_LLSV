@@ -387,7 +387,7 @@ body {
 /* Styles for mobile devices */
 @media (max-width: 768px) {
     .navbar-brand h1 {
-        font-size: 28px; /* Reduce font size for mobile */
+        font-size: 20px; /* Reduce font size for mobile */
         white-space: normal; /* Allow text to wrap */
         word-break: break-word; /* Break long words if necessary */
     }
