@@ -405,3 +405,8 @@ body {
 a{
     color: #c4d11a;
 }
+
+/* Enable smooth scrolling for all anchor links */
+html {
+    scroll-behavior: smooth;
+}
