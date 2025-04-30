@@ -32,17 +32,12 @@
                     <h1 class="text-uppercase text-primary mb-0">Luxury Limousine Service Vienna</h1>
                 </a>
 
-                <!-- Language Switch Buttons -->
-                <div class="mr-3">
-                    <button id="deButton" class="btn btn-outline-light active" onclick="switchToGerman()">DE</button>
-                    <button id="enButton" class="btn btn-outline-light" onclick="switchToEnglish()">EN</button>
-                </div>
-
                 <!-- Navbar Toggler -->
                 <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
+
             <!-- Navbar Links -->
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
@@ -50,6 +45,19 @@
                     <a href="#service" class="nav-item nav-link">Service</a>
                     <a href="#cars" class="nav-item nav-link">Cars</a>
                     <a href="#driver" class="nav-item nav-link">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sprachen
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <a href="#" id="deButton" class="dropdown-item" onclick="switchToGerman()">
+                                <img src="img/DE.png" alt="DE" style="width: 20px; height: 15px;"> DE
+                            </a>
+                            <a href="#" id="enButton" class="dropdown-item" onclick="switchToEnglish()">
+                                <img src="img/EN.png" alt="EN" style="width: 20px; height: 15px;"> EN
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

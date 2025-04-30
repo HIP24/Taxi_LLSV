@@ -1,36 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>ROYAL CARS - Car Rental HTML Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
-
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
-
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-
 <!-- Navbar Start -->
 <div class="container-fluid position-relative nav-bar p-0">
     <div class="position-relative" style="z-index: 9;">
@@ -40,12 +31,6 @@
                 <a href="" class="navbar-brand d-flex align-items-center">
                     <h1 class="text-uppercase text-primary mb-0">Luxury Limousine Service Vienna</h1>
                 </a>
-
-                <!-- Language Switch Buttons -->
-                <div class="mr-3">
-                    <button id="deButton" class="btn btn-outline-light active" onclick="switchToGerman()">DE</button>
-                    <button id="enButton" class="btn btn-outline-light" onclick="switchToEnglish()">EN</button>
-                </div>
 
                 <!-- Navbar Toggler -->
                 <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse">
@@ -58,16 +43,27 @@
                 <div class="navbar-nav ml-auto py-0">
                     <a href="#" class="nav-item nav-link">Home</a>
                     <a href="#service" class="nav-item nav-link">Service</a>
-                    <a href="#cars" class="nav-item nav-link">Cars</a>
-                    <a href="#driver" class="nav-item nav-link">Contact</a>
+                    <a href="#cars" class="nav-item nav-link">Autos</a>
+                    <a href="#driver" class="nav-item nav-link">Kontakt</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Languages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <a href="#" id="deButton" class="dropdown-item" onclick="switchToGerman()">
+                                <img src="img/DE.png" alt="DE" style="width: 20px; height: 15px;"> DE
+                            </a>
+                            <a href="#" id="enButton" class="dropdown-item" onclick="switchToEnglish()">
+                                <img src="img/EN.png" alt="EN" style="width: 20px; height: 15px;"> EN
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
 </div>
 <!-- Navbar End -->
-
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0" style="margin-bottom: 30px; margin-top: 100px;">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
@@ -119,8 +115,6 @@
         </div>
     </div>
     <!-- Carousel End -->
-
-
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
@@ -129,13 +123,9 @@
                 <div class="col-lg-10 text-center">
                     <img class="w-75 mb-4" src="img/combined.png" alt="" style="height: auto; width: auto;">
                     <p style="color: white;">Willkommen bei Luxury Limousine Service Vienna – Ihrem exklusiven Partner für hochwertige Flughafentransfers, private Sightseeing-Erlebnisse und komfortable Fahrten in und rund um Wien.</p>
-
-                    <p style="color: white;">Wir stehen für erstklassigen Service, höchste Qualität und stilvollen Komfort. Ob Sie am Flughafen Wien ankommen oder abfliegen – unsere professionellen Chauffeure holen Sie pünktlich ab und bringen Sie entspannt, sicher und in eleganten Mercedes-Fahrzeugen an Ihr Ziel. Auch für Kundinnen und Kunden aus Wien bieten wir zuverlässige Abholungen von zu Hause, vom Hotel oder vom Büro.</p>
-                        
+                    <p style="color: white;">Wir stehen für erstklassigen Service, höchste Qualität und stilvollen Komfort. Ob Sie am Flughafen Wien ankommen oder abfliegen – unsere professionellen Chauffeure holen Sie pünktlich ab und bringen Sie entspannt, sicher und in eleganten Mercedes-Fahrzeugen an Ihr Ziel. Auch für Kundinnen und Kunden aus Wien bieten wir zuverlässige Abholungen von zu Hause, vom Hotel oder vom Büro.</p>                      
                     <p style="color: white;">Unsere Chauffeure treten stets im gepflegten Anzug auf und überzeugen mit elegantem Auftreten. In jedem Fahrzeug steht Ihnen stilles Wasser zur Verfügung – für eine angenehme und erfrischende Fahrt auf höchstem Niveau.</p>
-                        
-                    <p style="color: white;">Neben klassischen Transfers bieten wir individuelle Sightseeing-Touren in luxuriösem Rahmen sowie ausgewählte Fahrten auch über die Stadtgrenzen hinaus – ganz nach Ihren Wünschen und Ihrem Zeitplan.</p>
-                        
+                    <p style="color: white;">Neben klassischen Transfers bieten wir individuelle Sightseeing-Touren in luxuriösem Rahmen sowie ausgewählte Fahrten auch über die Stadtgrenzen hinaus – ganz nach Ihren Wünschen und Ihrem Zeitplan.</p>  
                     <p style="color: white;">Mit Luxury Limousine Service Vienna erleben Sie mehr als nur eine Fahrt – Sie genießen Stil, Komfort und echte Wiener Gastfreundschaft.</p>
                 </div>
             </div>
@@ -168,7 +158,6 @@
         </div>
     </div>
     <!-- About End -->
-
     <!-- Rent A Car Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
@@ -229,7 +218,6 @@
         </div>
     </div>
     <!-- Rent A Car End -->
-
     <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
@@ -244,12 +232,10 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <!-- Team End -->
-
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 0px;">
         <div class="row pt-5">
@@ -260,17 +246,12 @@
             </div>
         </div>
     </div>
-        <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
+    <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
         <p class="mb-2 text-center text-body">&copy; <a href="#">Luxury Limousine Service Vienna</a>. All Rights Reserved.</p>
-		
-		</div>
+        </div>
     <!-- Footer End -->
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -280,7 +261,6 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/js.js"></script>
