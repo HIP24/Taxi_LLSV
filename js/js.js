@@ -12,6 +12,13 @@ function switchToEnglish() {
     window.location.href = "index_en.html"; // Redirect to English version
 }
 
+function collapseNavbar() {
+    const navbarCollapse = document.getElementById('navbarCollapse');
+    if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+    }
+}
+
 // Automatically set the active button based on the current page
 document.addEventListener("DOMContentLoaded", function () {
     const currentPage = window.location.pathname.split('/').pop(); // Get the current file name
